@@ -1,0 +1,8 @@
+prefix=/home/suntall/catkin_ws/install
+
+Name: ros_calc
+Description: Description of ros_calc
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lros_calc
+Requires: message_generation roscpp std_msgs

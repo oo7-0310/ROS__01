@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="ros_calc" type="ros_calc_publisher" name="ros_calc_publisher"/>
+	<node pkg="ros_calc" type="ros_calc_subscriber" name="ros_calc_subscriber"/>
+</launch>
+
