@@ -5,8 +5,8 @@ _기능이 있는 건 아니지만.. 공부하며 만들었다는 데 의의를 
 ~~기획의도는 계산기였으나 오류 해결못해서 일단은 평균구하기 오류 해결해서 다시 해보기~~
 ## 2. package
 2.1. ros_calc 평균구하기
-2.2. ros_msg_test 실습(현재 시간)
-* 출처: github.com/robotpilllot/ros-seminar
+
+2.2. ros_msg_test 실습(현재 시간) * 출처: github.com/robotpilllot/ros-seminar
 ## 3. topic
  subscriber, publisher 생성
 ## 4. msg, luanch, src 사용
