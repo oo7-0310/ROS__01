@@ -39,7 +39,7 @@ int main(int argc, char **argv)
 	ROS_INFO("+%d", a);//ROS_INFO 터미널 창에 찍힘
 	ROS_INFO("average => %f", msg.data);//평균구하기(받은 수 더하고 지금까지 받은 수의 개수로 나누기)
 	
-	ros_calc_publisher.publish(msg);//msg에 있는 것 통째로 발
+	ros_calc_publisher.publish(msg);//msg에 있는 것 통째로 발송
         loop_rate.sleep();   
 	
 	count++;
