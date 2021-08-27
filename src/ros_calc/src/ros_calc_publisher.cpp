@@ -22,18 +22,14 @@ int main(int argc, char **argv)
     
     ros_calc :: Result1 msg;
 
-
     float average = 0;  
     int count = 1;
                          
-
     while (ros::ok())
 
     {
 	a = rand()%100;//랜덤으로 숫자 계속 받아서 
 	
-
-        
 	average = (average + a)/count;
 	msg.data = average;
 	ROS_INFO("+%d", a);//ROS_INFO 터미널 창에 찍힘
@@ -43,8 +39,6 @@ int main(int argc, char **argv)
         loop_rate.sleep();   
 	
 	count++;
- 
-
     }
     return 0;
 }
