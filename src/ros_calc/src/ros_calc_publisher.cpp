@@ -7,7 +7,7 @@ int main(int argc, char **argv)
 {
    srand(time(NULL));
 
-    ros::init(argc, argv, "ros_calc_publisher"); //지정한 노드명으로 초기
+    ros::init(argc, argv, "ros_calc_publisher"); //지정한 노드명으로 초기화
 
     ros::NodeHandle nh;//노드 컨트롤
 
