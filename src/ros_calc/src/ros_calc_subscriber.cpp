@@ -14,7 +14,7 @@ void msgCallback(const  ros_calc ::Result1::ConstPtr& msg)
 int main(int argc, char **argv)                 
 
 {
-   ros::init(argc, argv, "ros_calc_subscriber");    // 설정한 노드명으로 초기
+   ros::init(argc, argv, "ros_calc_subscriber");    // 설정한 노드명으로 초기화
  
 
     ros::NodeHandle nh;    
