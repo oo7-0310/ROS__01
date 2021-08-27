@@ -20,7 +20,7 @@ int main(int argc, char **argv)
     ros::NodeHandle nh;    
 
     ros::Subscriber ros_calc_subscriber = nh.subscribe("ros_calc_msg", 1000, msgCallback);
-//토픽명과 큐는 publisher과 동일, 이 토픽명이 날라오면 msgCallback함수 호
+//토픽명과 큐는 publisher과 동일, 이 토픽명이 날라오면 msgCallback함수 호출
 
  
 
